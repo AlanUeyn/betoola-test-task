@@ -1,0 +1,5 @@
+app:
+  roundingStrategy: CUSTOMER_FAVOR
+  convertMarginPercent: 0.02
+  currencies:
+    gbpEuro: 1.2375

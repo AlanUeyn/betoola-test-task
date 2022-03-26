@@ -1,0 +1,17 @@
+# BeToola test task
+
+## Purpose
+
+This microservice can handle the next use cases:
+
+1. Client wants to buy 100.00 GBP by selling some EUR.
+2. Client wants to buy some GBP by selling 100.00 EUR.
+
+## Local run
+`./gradlew :clean :bootRun`
+
+## Swagger-ui
+localhost:8080/v3/swagger-ui.html
+
+## OpenAPI 3.0 specification
+localhost:8080/v3/api-docs
