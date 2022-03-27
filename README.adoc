@@ -1,17 +1,39 @@
-# BeToola test task
+= BeToola test task
 
-## Purpose
+== Purpose
 
 This microservice can handle the next use cases:
 
 1. Client wants to buy 100.00 GBP by selling some EUR.
 2. Client wants to buy some GBP by selling 100.00 EUR.
 
-## Local run
+== Reqiurements
+
+- Java 17
+
+== Local run
+
+1. Clone or download the repository
+
+2. Open the CLI and move to the repository root folder
+
+3. Execute the following command
+
+=== Unix
+
 `./gradlew :clean :bootRun`
 
-## Swagger-ui
-localhost:8080/v3/swagger-ui.html
+=== Windows
 
-## OpenAPI 3.0 specification
-localhost:8080/v3/api-docs
+`gradlew.bat :clean :bootRun`
+
+== Specs
+
+After you run the application, you can find the specs by the following links:
+
+=== Swagger-ui
+
+http://localhost:8080/v3/swagger-ui.html
+
+=== OpenAPI 3.0 specification
+http://localhost:8080/v3/api-docs
